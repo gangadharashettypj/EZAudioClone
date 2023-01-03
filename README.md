@@ -108,7 +108,7 @@ Shows how to use the `EZMicrophone`, `EZOutput`, and the `EZAudioPlotGL` to pass
 Shows how to calculate the real-time FFT of the audio data coming from the `EZMicrophone` and the Accelerate framework. The audio data is plotted using two `EZAudioPlots` for the time and frequency displays.
 
 ### Documentation
-The official documentation for EZAudio can be found here: http://cocoadocs.org/docsets/EZAudio/1.1.4/
+The official documentation for EZAudio can be found here: http://cocoadocs.org/docsets/EZAudioClone/0.1.6/
 <br>You can also generate the docset yourself using appledocs by running the appledocs on the EZAudio source folder.
 
 ## <a name="GettingStarted">Getting Started
@@ -148,7 +148,7 @@ pod 'EZAudioClone', '~> 0.1.5'
 If you're also using the Amazing Audio Engine then use the `EZAudioClone/Core` subspec like so:
 
 `
-pod 'EZAudio/Core', '~> 1.1.4'
+pod 'EZAudioClone/Core', '~> 1.1.4'
 `
 
 2.) EZAudio now supports Carthage (thanks Andrew and Tommaso!). You can refer to Carthage's installation for a how-to guide:
@@ -228,7 +228,7 @@ Alternatively, you could also use the shared `EZMicrophone` instance and just as
 ```
 
 #### Setting The Device
-The `EZMicrophone` uses an `EZAudioDevice` instance to select what specific hardware destination it will use to pull audio data. You'd use this if you wanted to change the input device like in the EZAudioCoreGraphicsWaveformExample for [iOS](https://github.com/syedhali/EZAudio/tree/master/EZAudioExamples/iOS/EZAudioCoreGraphicsWaveformExample) or [OSX](https://github.com/syedhali/EZAudio/tree/master/EZAudioExamples/OSX/EZAudioCoreGraphicsWaveformExample). At any time you can change which input device is used by setting the device property:
+The `EZMicrophone` uses an `EZAudioDevice` instance to select what specific hardware destination it will use to pull audio data. You'd use this if you wanted to change the input device like in the EZAudioCoreGraphicsWaveformExample for [iOS](https://github.com/syedhali/EZAudio/tree/master/EZAudioExamples/iOS/EZAudioCoreGraphicsWaveformExample) or [OSX](https://github.com/syedhali/EZAudi/tree/master/EZAudioExamples/OSX/EZAudioCoreGraphicsWaveformExample). At any time you can change which input device is used by setting the device property:
 ```objectivec
 NSArray *inputs = [EZAudioDevice inputDevices];
 [self.microphone setDevice:[inputs lastObject]];
