@@ -141,11 +141,11 @@ To begin using `EZAudio` you must first make sure you have the proper build requ
 You can add EZAudio to your project in a few ways: <br><br>1.) The easiest way to use EZAudio is via <a href="http://cocoapods.org/", target="_blank">Cocoapods</a>. Simply add EZAudio to your <a href="http://guides.cocoapods.org/using/the-podfile.html", target="_blank">Podfile</a> like so:
 
 `
-pod 'EZAudio', '~> 1.1.4'
+pod 'EZAudioClone', '~> 0.1.5'
 `
 
 #### <a name="AmazingAudioEngineCocoapod">Using EZAudio & The Amazing Audio Engine
-If you're also using the Amazing Audio Engine then use the `EZAudio/Core` subspec like so:
+If you're also using the Amazing Audio Engine then use the `EZAudioClone/Core` subspec like so:
 
 `
 pod 'EZAudio/Core', '~> 1.1.4'
