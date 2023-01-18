@@ -33,7 +33,7 @@
 #include <pthread.h>
 
 // constants
-static UInt32 EZAudioFileWaveformDefaultResolution = 1024;
+static UInt32 EZAudioFileWaveformDefaultResolution = 1120;
 static NSString *EZAudioFileWaveformDataQueueIdentifier = @"com.ezaudio.waveformQueue";
 
 //------------------------------------------------------------------------------
@@ -690,7 +690,7 @@ typedef struct
                                                           &maxPacketSize)
                         operation:"Failed to get max packet size"];
     
-    self.floatData = [EZAudioUtilities floatBuffersWithNumberOfFrames:1024
+    self.floatData = [EZAudioUtilities floatBuffersWithNumberOfFrames:1120
                                                      numberOfChannels:self.clientFormat.mChannelsPerFrame];
 }
 

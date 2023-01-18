@@ -478,7 +478,7 @@ typedef NSRect EZRect;
 /**
  Initializes the circular buffer (just a wrapper around the C method)
  @param circularBuffer Pointer to an instance of the TPCircularBuffer
- @param size           The length of the TPCircularBuffer (usually 1024)
+ @param size           The length of the TPCircularBuffer (usually 1120)
  */
 + (void)circularBuffer:(TPCircularBuffer*)circularBuffer
               withSize:(int)size;

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "EZAudioClone"
-    s.version      = "0.1.6"
+    s.version      = "0.1.7"
     s.summary      = "A simple, intuitive audio framework for iOS and OSX useful for anyone doing audio processing and/or audio-based visualizations."
     s.homepage     = "https://github.com/gangadharashettypj/EZAudioClone"
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
